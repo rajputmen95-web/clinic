@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apollo Clinic Bhanwarkua, Indore | Compassionate Healthcare</title>
+  <meta name="description" content="Apollo Clinic at Bhanwarkua Square, Indore offers expert general consultation, diagnostics, pediatrics, pathology, physiotherapy and health checkups. Call 0731 487 0736." />
+  <meta name="keywords" content="Apollo Clinic Indore, Bhanwarkua clinic, medical clinic Indore, doctor Indore, health checkup Indore, diagnostics Indore" />
+  <meta property="og:title" content="Apollo Clinic Bhanwarkua, Indore" />
+  <meta property="og:description" content="Compassionate Care, Trusted Treatment in Indore. Book your appointment today." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Apollo Clinic Home">
+        <div class="nav-logo-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div class="nav-logo-text">
+          <div class="brand">Apollo Clinic</div>
+          <div class="sub">Bhanwarkua &middot; Indore</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#hero" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="nav-cta">
+        <a href="tel:07314870736" class="nav-phone">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          0731 487 0736
+        </a>
+        <button class="nav-book" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hero" onclick="closeMobileMenu()">Home</a>
+  <a href="#about" onclick="closeMobileMenu()">About Us</a>
+  <a href="#services" onclick="closeMobileMenu()">Services</a>
+  <a href="#doctors" onclick="closeMobileMenu()">Our Doctors</a>
+  <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+  <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+  <div class="mobile-cta">
+    <a href="tel:07314870736" class="btn btn-teal" style="justify-content:center;text-decoration:none;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+      Call Now: 0731 487 0736
+    </a>
+    <button class="btn btn-primary" style="justify-content:center;" onclick="closeMobileMenu();document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="hero" aria-label="Hero section">
+  <img src="clinic_hero_1781405299872.png" class="hero-bg-img" alt="Apollo Clinic modern interior" />
+  <div class="hero-overlay"></div>
+  <div class="hero-crosses"></div>
+  <div class="hero-blob"></div>
+  <div class="hero-blob"></div>
+  <div class="hero-blob"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="800">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Trusted Healthcare in Indore
+        </div>
+        <h1 class="hero-title">Apollo Clinic <span>Bhanwarkua</span></h1>
+        <p class="hero-tagline">Compassionate Care, Trusted Treatment in Indore. Your health is our highest priority.</p>
+        <div class="hero-btns">
+          <button class="btn btn-primary" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Book Appointment
+          </button>
+          <a href="tel:07314870736" class="btn hero-call-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now: 0731 487 0736
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-num">10,000+</div>
+            <div class="hero-stat-label">Patients Treated</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">15+</div>
+            <div class="hero-stat-label">Years Experience</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">8+</div>
+            <div class="hero-stat-label">Expert Doctors</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card" data-aos="fade-left" data-aos-duration="900">
+        <div class="hero-img-wrap-outer">
+          <div class="hero-img-wrap">
+            <img src="clinic_hero_1781405299872.png" alt="Apollo Clinic reception area" />
+          </div>
+          <div class="hero-float-badge">
+            <span class="hero-float-badge-icon">&#x2705;</span>
+            <div>
+              <strong>Certified Clinic</strong>
+              <span>Apollo Healthcare Network</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card-info">
+          <div class="hero-card-info-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="hero-card-info-text">
+            <strong>Open Mon &ndash; Sat, 9 AM &ndash; 8 PM</strong>
+            <span>Sunday: 10 AM &ndash; 2 PM &bull; Emergency available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-arrow" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})" tabindex="0" role="button" aria-label="Scroll down">
+    <span>SCROLL</span>
+    <div class="scroll-arrow-chevron">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section-pad" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap" data-aos="fade-right" data-aos-duration="800">
+        <img src="clinic_about_1781405312152.png" alt="Doctor consulting with patient at Apollo Clinic Indore" loading="lazy" />
+        <div class="about-img-badge">
+          <div class="num">15+</div>
+          <div class="lbl">Years Serving<br>Indore</div>
+        </div>
+      </div>
+      <div class="about-text" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+        <div class="tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          About Apollo Clinic
+        </div>
+        <h2 id="about-heading">Where <span>Modern Medicine</span> Meets Compassionate Care</h2>
+        <p>Apollo Clinic at Bhanwarkua Square, Indore is part of the trusted Apollo Healthcare network, delivering world-class medical care with a personal touch to the community of Madhya Pradesh for over a decade.</p>
+        <p>Equipped with advanced diagnostic equipment and staffed by experienced, board-certified physicians, we are committed to providing accurate, affordable, and timely healthcare to every patient who walks through our doors.</p>
+        <div class="about-values">
+          <div class="about-value">
+            <div class="about-value-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <div><strong>Patient-First Care</strong><span>Every decision centred on you</span></div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <div><strong>Timely Treatment</strong><span>Minimal wait, maximum care</span></div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            </div>
+            <div><strong>Modern Facilities</strong><span>State-of-the-art equipment</span></div>
+          </div>
+          <div class="about-value">
+            <div class="about-value-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div><strong>Safe and Hygienic</strong><span>Strict sterilisation protocols</span></div>
+          </div>
+        </div>
+        <a href="tel:07314870736" class="btn btn-primary">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Contact Us Today
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-pad" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="tag">Our Services</div>
+      <h2 id="services-heading">Comprehensive Medical Services Under One Roof</h2>
+      <div class="divider"></div>
+      <p>From routine health check-ups to specialised consultations, we offer a full spectrum of healthcare services for your family.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>General Consultation</h3>
+        <p>Expert diagnosis and treatment for common illnesses, chronic conditions, fever, infections, and general health concerns by experienced physicians.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <h3>Advanced Diagnostics</h3>
+        <p>In-house diagnostic services including blood tests, urine analysis, ECG, X-ray, and imaging. Fast, accurate results you can trust.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Pediatrics</h3>
+        <p>Specialised care for infants, children, and adolescents including vaccinations, growth monitoring, and treatment of childhood illnesses.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18"/></svg>
+        </div>
+        <h3>Pathology Lab</h3>
+        <p>Comprehensive pathology services with accurate, timely reports. Blood counts, lipid profiles, thyroid tests, diabetes panels, and more, all in-house.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+        </div>
+        <h3>Physiotherapy</h3>
+        <p>Evidence-based physiotherapy for musculoskeletal pain, sports injuries, post-surgical rehabilitation, and mobility improvement.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="service-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <h3>Health Checkup Packages</h3>
+        <p>Customised full-body health packages for individuals, couples, and corporates. Early detection, wellness monitoring, and lifestyle counselling.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why" class="section-pad" aria-labelledby="why-heading">
+  <div class="container why-container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="tag why-tag">Why Apollo Clinic</div>
+      <h2 id="why-heading" class="why-heading">Why Thousands of Families Trust Us</h2>
+      <div class="divider why-divider"></div>
+      <p class="why-para">We combine medical excellence with genuine compassion to deliver healthcare that makes a real difference.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="why-card-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <h3>Experienced Doctors</h3>
+        <p>Board-certified physicians with years of clinical expertise</p>
+      </div>
+      <div class="why-card" data-aos="fade-up" data-aos-delay="70">
+        <div class="why-card-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h3>Modern Equipment</h3>
+        <p>Latest medical technology for precise diagnosis and treatment</p>
+      </div>
+      <div class="why-card" data-aos="fade-up" data-aos-delay="140">
+        <div class="why-card-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Hygienic Environment</h3>
+        <p>Strict sterilisation and infection control standards always</p>
+      </div>
+      <div class="why-card" data-aos="fade-up" data-aos-delay="210">
+        <div class="why-card-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Quick and Accurate</h3>
+        <p>Fast diagnosis with minimal waiting time for you</p>
+      </div>
+      <div class="why-card" data-aos="fade-up" data-aos-delay="280">
+        <div class="why-card-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <h3>Affordable Care</h3>
+        <p>Transparent pricing and quality care for every budget</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats" aria-label="Clinic statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="0">
+        <div class="stat-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <div class="stat-num" id="stat-patients">0</div>
+        <div class="stat-label">Patients Treated</div>
+      </div>
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="stat-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <div class="stat-num" id="stat-exp">0</div>
+        <div class="stat-label">Years of Experience</div>
+      </div>
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="stat-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div class="stat-num" id="stat-docs">0</div>
+        <div class="stat-label">Expert Doctors</div>
+      </div>
+      <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="stat-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <div class="stat-num" id="stat-rating">0</div>
+        <div class="stat-label">Patient Satisfaction Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTORS -->
+<section id="doctors" class="section-pad" aria-labelledby="doctors-heading">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="tag">Our Specialists</div>
+      <h2 id="doctors-heading">Meet Our Expert Medical Team</h2>
+      <div class="divider"></div>
+      <p>Our doctors bring deep expertise, genuine empathy, and a commitment to your health and well-being.</p>
+    </div>
+    <div class="doctors-grid">
+      <div class="doctor-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="doctor-img-wrap">
+          <img src="doctor1_1781405393726.png" alt="Dr. Rajesh Sharma, General Physician at Apollo Clinic Indore" loading="lazy" />
+          <div class="doctor-overlay">
+            <button class="doctor-overlay-btn" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+          </div>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-specialty">General Physician and Internal Medicine</div>
+          <div class="doctor-name">Dr. Rajesh Sharma</div>
+          <div class="doctor-qual">MBBS, MD (Internal Medicine) &mdash; 14 Years Experience</div>
+          <div class="doctor-avail"><span class="avail-dot"></span> Available Mon to Sat</div>
+        </div>
+      </div>
+      <div class="doctor-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="doctor-img-wrap">
+          <div class="doc-avatar">P</div>
+          <div class="doctor-overlay">
+            <button class="doctor-overlay-btn" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+          </div>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-specialty">Pediatrician and Child Health</div>
+          <div class="doctor-name">Dr. Priya Mehta</div>
+          <div class="doctor-qual">MBBS, DCH, DNB (Pediatrics) &mdash; 11 Years Experience</div>
+          <div class="doctor-avail"><span class="avail-dot"></span> Available Mon to Sat</div>
+        </div>
+      </div>
+      <div class="doctor-card" data-aos="fade-up" data-aos-delay="240">
+        <div class="doctor-img-wrap">
+          <div class="doc-avatar doc-avatar-teal">A</div>
+          <div class="doctor-overlay">
+            <button class="doctor-overlay-btn" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+          </div>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-specialty">Physiotherapist and Rehabilitation</div>
+          <div class="doctor-name">Dr. Anil Gupta</div>
+          <div class="doctor-qual">BPT, MPT (Orthopaedics) &mdash; 9 Years Experience</div>
+          <div class="doctor-avail"><span class="avail-dot"></span> Available Tue, Thu, Sat</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section-pad gallery-section" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="tag">Facility Gallery</div>
+      <h2 id="gallery-heading">Our Modern Clinic Facilities</h2>
+      <div class="divider"></div>
+      <p>Step inside Apollo Clinic, a clean, welcoming, and fully-equipped healthcare environment built for your comfort.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="0" onclick="openLightbox('clinic_hero_1781405299872.png','Apollo Clinic Reception')" tabindex="0" role="button" aria-label="View clinic reception">
+        <img src="clinic_hero_1781405299872.png" alt="Apollo Clinic modern reception area" loading="lazy" />
+        <div class="gallery-overlay"><span>Reception and Waiting Area</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="80" onclick="openLightbox('clinic_about_1781405312152.png','Doctor Consultation')" tabindex="0" role="button" aria-label="View consultation room">
+        <img src="clinic_about_1781405312152.png" alt="Doctor consultation room at Apollo Clinic" loading="lazy" />
+        <div class="gallery-overlay"><span>Doctor Consultation Room</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="160" onclick="openLightbox('clinic_gallery1_1781405331838.png','Examination Room')" tabindex="0" role="button" aria-label="View examination room">
+        <img src="clinic_gallery1_1781405331838.png" alt="Clean examination room at Apollo Clinic" loading="lazy" />
+        <div class="gallery-overlay"><span>Examination Room</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="0" onclick="openLightbox('clinic_gallery2_1781405357707.png','Waiting Area')" tabindex="0" role="button" aria-label="View waiting area">
+        <img src="clinic_gallery2_1781405357707.png" alt="Comfortable patient waiting area" loading="lazy" />
+        <div class="gallery-overlay"><span>Patient Waiting Area</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="80" onclick="openLightbox('clinic_gallery3_1781405369548.png','Diagnostic Lab')" tabindex="0" role="button" aria-label="View diagnostic laboratory">
+        <img src="clinic_gallery3_1781405369548.png" alt="Advanced diagnostic laboratory at Apollo Clinic" loading="lazy" />
+        <div class="gallery-overlay"><span>Diagnostic Laboratory</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="160" onclick="openLightbox('clinic_gallery1_1781405331838.png','Physiotherapy Room')" tabindex="0" role="button" aria-label="View physiotherapy room">
+        <img src="clinic_gallery1_1781405331838.png" alt="Physiotherapy and rehabilitation room" loading="lazy" style="filter:hue-rotate(30deg) saturate(1.1);" />
+        <div class="gallery-overlay"><span>Physiotherapy Centre</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">X</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section-pad" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="tag">Patient Stories</div>
+      <h2 id="testimonials-heading">What Our Patients Say</h2>
+      <div class="divider"></div>
+      <p>Real experiences from real people. Hear how Apollo Clinic has made a difference in their lives.</p>
+    </div>
+    <div class="testimonials-slider">
+      <div class="testimonials-track" id="testTrack">
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Excellent clinic! Dr. Sharma diagnosed my condition accurately after months of uncertainty. The staff are incredibly warm and professional. Highly recommend Apollo Clinic Bhanwarkua!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#1a6fc4,#0d9488);">R</div>
+            <div><div class="author-name">Rahul Malhotra</div><div class="author-label">Patient &mdash; General Consultation</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Brought my 3-year-old to Dr. Priya. She was so patient and gentle, instantly calming his fears. The clinic is spotlessly clean and well-organised. Best paediatrician in Indore!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#e91e8c,#f59e0b);">S</div>
+            <div><div class="author-name">Sunita Verma</div><div class="author-label">Parent &mdash; Pediatrics</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"The diagnostic lab here is top-notch. I got my full-body health checkup done and results came within hours. The doctors explained everything clearly. Very affordable and trustworthy."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#0d9488,#22c55e);">A</div>
+            <div><div class="author-name">Amit Joshi</div><div class="author-label">Patient &mdash; Health Checkup</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"I had severe back pain for months. After physiotherapy sessions with Dr. Anil, I am 90% better! He explains every exercise and is genuinely invested in my recovery. Wonderful experience."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#8b5cf6,#ec4899);">P</div>
+            <div><div class="author-name">Pradeep Singh</div><div class="author-label">Patient &mdash; Physiotherapy</div></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Being part of the Apollo network, the quality of care here is outstanding. Minimal waiting time, well-trained staff, and the doctors genuinely listen. My entire family visits this clinic!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#f59e0b,#ef4444);">M</div>
+            <div><div class="author-name">Meena Patel</div><div class="author-label">Regular Patient &mdash; Family Care</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-btn" id="prevBtn" aria-label="Previous">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="slider-dots" id="sliderDots">
+        <div class="slider-dot active" data-idx="0" tabindex="0"></div>
+        <div class="slider-dot" data-idx="1" tabindex="0"></div>
+        <div class="slider-dot" data-idx="2" tabindex="0"></div>
+      </div>
+      <button class="slider-btn" id="nextBtn" aria-label="Next">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- APPOINTMENT FORM -->
+<section id="appointment" class="section-pad" aria-labelledby="appointment-heading">
+  <div class="container">
+    <div class="appointment-grid">
+      <div class="appt-info" data-aos="fade-right">
+        <div class="tag">Book Appointment</div>
+        <h2 id="appointment-heading"><span>Schedule Your Visit</span> to Apollo Clinic</h2>
+        <p>Book an appointment online and skip the wait. Our team will confirm your slot within 30 minutes during clinic hours.</p>
+        <div class="appt-features">
+          <div class="appt-feature">
+            <div class="appt-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>Quick 30-minute confirmation</span>
+          </div>
+          <div class="appt-feature">
+            <div class="appt-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>Choice of preferred doctor or speciality</span>
+          </div>
+          <div class="appt-feature">
+            <div class="appt-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>Minimal wait time guaranteed</span>
+          </div>
+          <div class="appt-feature">
+            <div class="appt-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>Or call us: <a href="tel:07314870736" style="color:var(--primary);font-weight:700;">0731 487 0736</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="appt-form" data-aos="fade-left">
+        <h3>Book an Appointment</h3>
+        <form id="appointmentForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="apptName">Full Name *</label>
+              <input type="text" id="apptName" class="form-input" placeholder="Your full name" autocomplete="name" />
+              <div class="form-error" id="err-name">Please enter your name.</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="apptPhone">Phone Number *</label>
+              <input type="tel" id="apptPhone" class="form-input" placeholder="10-digit mobile number" autocomplete="tel" />
+              <div class="form-error" id="err-phone">Enter a valid 10-digit number.</div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="apptDate">Preferred Date *</label>
+              <input type="date" id="apptDate" class="form-input" />
+              <div class="form-error" id="err-date">Please select a date.</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="apptService">Service / Department</label>
+              <select id="apptService" class="form-select">
+                <option value="">Select a service</option>
+                <option>General Consultation</option>
+                <option>Pediatrics</option>
+                <option>Diagnostics and Pathology</option>
+                <option>Physiotherapy</option>
+                <option>Health Checkup</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="apptMsg">Message / Symptoms (Optional)</label>
+            <textarea id="apptMsg" class="form-textarea" placeholder="Briefly describe your symptoms or reason for visit..."></textarea>
+          </div>
+          <button type="submit" class="form-submit" id="apptSubmitBtn">Confirm Appointment Request</button>
+        </form>
+        <div class="form-success" id="formSuccess" role="alert">
+          <div class="form-success-icon">&#x1F389;</div>
+          <p>Appointment Request Sent!</p>
+          <p style="font-size:0.85rem;color:#166534;margin-top:6px;font-weight:400;">We will call you within 30 minutes to confirm. Thank you for choosing Apollo Clinic!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-pad" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <div class="tag">Find Us</div>
+      <h2 id="contact-heading">Location and Contact</h2>
+      <div class="divider"></div>
+      <p>Conveniently located at Bhanwarkua Square on AB Road, Indore, easily accessible from across the city.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info-cards" data-aos="fade-right">
+        <div class="contact-card">
+          <div class="contact-card-icon icon-blue">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact-card-label">Address</div>
+            <div class="contact-card-value">No-1, Scheme No-44-B, Siddharth Nagar,<br>Bhanwarkua Square, AB Rd,<br>Indore, Madhya Pradesh &mdash; 452014</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon icon-teal">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <div class="contact-card-label">Phone</div>
+            <div class="contact-card-value">
+              <a href="tel:07314870736">0731 487 0736</a><br>
+              <span style="font-size:0.82rem;color:var(--text-body);">Click to call on mobile</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon icon-green">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="contact-card-label">Opening Hours</div>
+            <div class="contact-card-value">
+              <table class="hours-table">
+                <tr><td>Monday to Friday</td><td>9:00 AM &ndash; 8:00 PM</td></tr>
+                <tr><td>Saturday</td><td>9:00 AM &ndash; 6:00 PM</td></tr>
+                <tr><td>Sunday</td><td>10:00 AM &ndash; 2:00 PM</td></tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="contact-links">
+          <a href="https://maps.google.com/?q=Apollo+Clinic+Bhanwarkua+Indore" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Get Directions
+          </a>
+          <a href="https://share.google/T9uXlKvUdzHuuOp06" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            Google Profile
+          </a>
+        </div>
+      </div>
+      <div class="map-wrap" data-aos="fade-left">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.0!2d75.8573!3d22.6826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdfd26456be3%3A0x516b1d01cd51c055!2sApollo+Clinic+Bhanwarkua!5e0!3m2!1sen!2sin!4v1718000000000!5m2!1sen!2sin"
+          title="Apollo Clinic Bhanwarkua Indore on Google Maps"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-wrap">
+            <div class="footer-logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div>
+              <div class="footer-logo-name">Apollo Clinic</div>
+              <div class="footer-logo-sub">Bhanwarkua &mdash; Indore</div>
+            </div>
+          </div>
+          <p>Committed to compassionate, quality healthcare for individuals and families across Indore. Part of the trusted Apollo Healthcare network.</p>
+          <div class="footer-social">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Twitter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="https://share.google/T9uXlKvUdzHuuOp06" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Google Business">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <nav class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Our Services</a>
+            <a href="#doctors">Our Doctors</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#appointment">Book Appointment</a>
+            <a href="#contact">Contact Us</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <nav class="footer-links">
+            <a href="#services">General Consultation</a>
+            <a href="#services">Advanced Diagnostics</a>
+            <a href="#services">Pediatrics</a>
+            <a href="#services">Pathology Lab</a>
+            <a href="#services">Physiotherapy</a>
+            <a href="#services">Health Checkups</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>No-1, Scheme No-44-B, Siddharth Nagar, Bhanwarkua Sq., AB Rd, Indore &mdash; 452014</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:07314870736">0731 487 0736</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Mon&ndash;Fri: 9AM&ndash;8PM | Sat: 9AM&ndash;6PM | Sun: 10AM&ndash;2PM</span>
+          </div>
+          <div class="emergency-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            For medical emergencies, dial 108 (Ambulance)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer-bottom">
+      <span>&copy; 2024 Apollo Clinic, Bhanwarkua, Indore. All rights reserved.</span>
+      <span>Designed with care for better healthcare in Indore | <a href="https://share.google/T9uXlKvUdzHuuOp06" target="_blank" rel="noopener noreferrer">View on Google</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING CTA -->
+<div class="floating-cta">
+  <a href="tel:07314870736" class="float-btn float-call" aria-label="Call 0731 487 0736">
+    <div class="float-tooltip">Call: 0731 487 0736</div>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  </a>
+  <button class="float-btn float-appt" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})" aria-label="Book appointment">
+    <div class="float-tooltip">Book Appointment</div>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+  </button>
+</div>
+
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
